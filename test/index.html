@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./lib/mui/css/mui.min.css">
+    <!-- 字体图标库 -->
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>驴妈妈</title>
+</head>
+<body>
+    <!-- 顶部 -->
+    <header id="header">
+        <!-- 左侧 -->
+        <div class="left">
+            <div class="wenzi">上海</div>   
+            <span>▼</span>
+        </div> 
+        <!-- 中间 -->
+        <div class="biaoti">驴妈妈旅游网</div>
+        <!-- 右侧 -->
+        <div class="right">
+                <span class="mui-icon mui-icon-person"></span>
+        </div>
+    </header>
+    <section id="banner">
+            <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
+                    <!-- 如果需要滚动条 -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+    </section>
+    <script src="./lib/mui/js/mui.min.js"></script>
+    <!-- 这是zepto里的核心模块之一在开发的时候可以一一进行引入 但是当项目上线之后 就需要合并所有模块 -->
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/artTemplate/template-native.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>
